@@ -1,5 +1,4 @@
 import array
-
 def find_second_largest(arr):
     largest = arr[0]
     second_largest = -1
@@ -10,6 +9,7 @@ def find_second_largest(arr):
 
         elif arr[i]<largest and arr[i]>second_largest:
             second_largest = arr[i]
+
 
     return second_largest
 
