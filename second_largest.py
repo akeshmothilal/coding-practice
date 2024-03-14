@@ -1,4 +1,3 @@
-import array
 def find_second_largest(arr):
     largest = arr[0]
     second_largest = -1
